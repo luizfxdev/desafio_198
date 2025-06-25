@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planeta da Sorte</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Descubra o Planeta da Sorte 🪐</h1>
+      <p class="description">Digite a hora atual (formato 24h) para descobrir qual é o planeta da sorte!</p>
+
+      <div class="input-group">
+        <input type="number" id="horaInput" min="0" max="23" placeholder="Digite a hora (0-23)" />
+      </div>
+
+      <div class="button-group">
+        <button id="descobrirBtn">DESCOBRIR</button>
+        <button id="retornarBtn">RETORNAR</button>
+      </div>
+      <br />
+      <br />
+      <div class="result-container">
+        <h2>Resultado</h2>
+        <div id="resultado"></div>
+        <div id="calculo"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
